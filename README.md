@@ -29,7 +29,7 @@ For ground-truth annotations, numpy files are provided for each attribute of eac
 - semantics (semantic classes of integer type [270,480])
   1-wall, 2-flat roof, 3-tilted roof, 4-complicated roof, 5-ground, 0-unclassified
 
-
+6-DOF parameters are attached, including coordinates (ETRS UTM coordinates + DHHN92 absolute height above sea level), pan and tilt. No rolling is considered for simulation. 
 
 ## Citation
 
