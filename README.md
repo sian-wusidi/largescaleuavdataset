@@ -10,7 +10,7 @@ We make use of the 3D city model of the Berlin city area published by the state 
 
 We simulate UAV image sequences in Google Earth Studio, align parameters and derive annotations in Blender. For more details, please check our paper http://paperwillbepublishedinICPR.
 
-![](simulaterender.gif)
+![](simulateandrender.gif)
 
 ## Download
 We share the simulated dataset with automatically generated annotations (depth, semantics, edges, surface normals) together with source codes as well as blender files. The dataset contains 144000 UAV images over 15 areas distributed in Berlin.
@@ -29,14 +29,10 @@ For ground-truth annotations, numpy files are provided for each attribute of eac
 - semantics (semantic classes of integer type [270,480])
   1-wall, 2-flat roof, 3-tilted roof, 4-complicated roof, 5-ground, 0-unclassified
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
-```bash
-pip install foobar
-```
 
 ## Citation
 
-please cite the following paper if you want to use either the dataset or the source codes as well as Blender files.
+please cite the following paper if you want to use either the dataset or the source codes/files.
 
 ## License
