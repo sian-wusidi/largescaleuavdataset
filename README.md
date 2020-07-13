@@ -10,7 +10,7 @@ We make use of the 3D city model of the Berlin city area published by the state 
 
 We simulate UAV image sequences in Google Earth Studio, align parameters and derive annotations in Blender. For more details, please check our paper http://paperwillbepublishedinICPR.
 
-![](simulateandrender.gif)
+![ ](simulateandrender.gif)
 
 ## Download
 We share the simulated dataset with automatically generated annotations (depth, semantics, edges, surface normals) together with source codes as well as blender files. The dataset contains 144000 UAV images over 15 areas distributed in Berlin.
