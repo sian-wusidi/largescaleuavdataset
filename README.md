@@ -36,13 +36,7 @@ For ground-truth annotations, numpy files are provided for each attribute of eac
 - depth (float, shape: [270, 480])
 - surface normals (float, shape: [270, 480, 3])
 - edges (binary, shape: [270, 480])
-- semantics (integer, shape: [270, 480]) with class labels:
-  0. unknown
-  1. wall
-  2. flat roof
-  3. tilted roof
-  4. complicated roof
-  5. ground
+- semantics (integer, shape: [270, 480]) with class labels: 1 - wall, 2 - flat roof, 3 - tilted roof, 4 - complicated roof, 5 - ground, 0 - unclassified 
 
 
 6-DOF parameters are attached, including coordinates (ETRS UTM coordinates + DHHN92 absolute height above sea level), pan and tilt.
