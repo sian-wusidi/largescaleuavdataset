@@ -37,7 +37,7 @@ For ground-truth annotations, numpy files are provided for each attribute of eac
 - surface normals (float, shape: [270, 480, 3])
 - edges (binary, shape: [270, 480])
 - semantics (integer, shape: [270, 480]) with class labels: 1 - wall, 2 - flat roof, 3 - tilted roof, 4 - complicated roof, 5 - ground, 0 - unclassified 
-
+_The compressed npy has been saved. Use data.f.arr_0 to unzip the data.
 
 6-DOF parameters are attached, including coordinates (ETRS UTM coordinates + DHHN92 absolute height above sea level), pan and tilt.
 No rolling was considered for simulation.
