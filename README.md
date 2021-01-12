@@ -43,7 +43,7 @@ _The compressed npy has been saved. Use data.f.arr_0 to unzip the data._
 6-DOF parameters are attached, including coordinates (ETRS UTM coordinates + DHHN92 absolute height above sea level), pan and tilt.
 No rolling was considered for simulation.
 
-_The full dataset can be downloaded here https://syncandshare.lrz.de/getlink/fiFaHYrhe9EW77DYpQzG5oJo/ for the mentioned three scenarios. Please use "md5sum" for each sub-dataset and compare the MD5 with our provided "checksums.txt" to see if each sub-dataset is downloaded correctly._  
+_The full dataset can be downloaded here https://syncandshare.lrz.de/getlink/fiFaHYrhe9EW77DYpQzG5oJo/. There are three sub-datasets corresponding to the mentioned three scenarios. Please use "md5sum" for each sub-dataset and compare the MD5 with our provided "checksums.txt" to see if each sub-dataset is downloaded correctly._  
 
 ## Codes
 Three blender files are provided for rendering depth + surface normals, semantics and edges, respectively. Those files include python scripting and settings of composition nodes. 
